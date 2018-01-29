@@ -24,7 +24,12 @@ public class Cars {
         return this.name;
     }
 
-    public Color getPrice() {
+    public Color getColor() {
         return this.color;
+    }
+
+    @Override
+    public String toString() {
+        return "Name: " + this.name + ", color: " + this.color.toString();
     }
 }

@@ -19,5 +19,8 @@ public class Main {
 
 
          System.out.print(mRepo.getEntities().isEmpty());
+
+         Controller carsController = new Controller(mRepo);
+         System.out.print(carsController.filterCarsByColor(new Color(255,0,0)).toString());
     }
 }
