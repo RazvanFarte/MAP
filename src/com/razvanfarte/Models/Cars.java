@@ -12,11 +12,11 @@ public class Cars {
         this.color = color;
     }
 
-    Cars() {
+    public Cars() {
         this.initialiseFields("Uninitialized", new Color(0,0,0));
     }
 
-    Cars(String name, Color color) {
+    public Cars(String name, Color color) {
         this.initialiseFields(name, color);
     }
 
